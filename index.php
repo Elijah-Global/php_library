@@ -29,9 +29,9 @@ if (!isset($_SESSION['library'])) {
     $library->addItem($magazine1);
     $library->addItem($magazine2);
     $library->addItem($magazine3);
-    $member1 = new Member("M001", "John Doe", "john@example.com");
-    $member2 = new Member("M002", "Jane Smith", "jane@example.com");
-    $member3 = new Member("M003", "Bob Johnson", "bob@example.com");
+    $member1 = new Member("M001", "Ola Tunde", "ola@example.com");
+    $member2 = new Member("M002", "Janet Joy", "janet@example.com");
+    $member3 = new Member("M003", "Bola Johnson", "bola@example.com");
     $library->addMember($member1);
     $library->addMember($member2);
     $library->addMember($member3);
